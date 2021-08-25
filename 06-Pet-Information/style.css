@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  width: 750px;
+  margin: 10px auto;
+}
+
+h1 {
+  font-size: 22px;
+  color: #f79256;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 40px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  justify-items: center;
+  border-top: 5px solid #7dcfb6;
+  border-bottom: 5px solid #7dcfb6;
+  background-color: #fbd1a2;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.el {
+  font-size: 18px;
+  width: 300px;
+  height: 42px;
+  padding: 5px;
+}
+
+.hobbies {
+  font-size: 18px;
+  width: 400px;
+  height: 100px;
+  padding: 5px;
+}
+
+.submit-button {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #00b2ca;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  border: 3px solid #00b2ca;
+}
+
+.submit-button:hover {
+  color: #1d4e89;
+  background-color: #fbd1a2;
+  cursor: pointer;
+}
