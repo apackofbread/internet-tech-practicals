@@ -1,5 +1,5 @@
 # internet-tech-practicals
- This is my code for practicals questions of Internet Technologies (Web Development), completed while pursuing BSc (Hons) Computer Science from University of Delhi.
+ This is my code for practical questions of Internet Technologies (Web Development part), completed while pursuing B.Sc (Hons) Computer Science from University of Delhi.
  The projects are written using HTML, CSS & JavaScript.
  
  **Aim for the projects are mentioned below:-**  
