@@ -1,0 +1,157 @@
+/* MAIN COLOR: #9c36b5
+GRAY COLOR: #862e9c
+ACCENTS: #f8f0fc #f3d9fa */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border-bottom: 8px solid #9c36b5;
+  background-color: #f8f0fc;
+}
+
+/* MAIN COMPONENTS */
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  margin-top: 64px;
+  color: #343a40;
+  line-height: 1.5;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  row-gap: 20px;
+  background-color: #9c36b5;
+  border-radius: 20px;
+  padding: 40px;
+  color: #f3d9fa;
+}
+
+.fee {
+  margin-bottom: 64px;
+}
+
+.eligibility {
+  margin-bottom: 64px;
+}
+
+.course-structure {
+  margin-bottom: 64px;
+}
+
+.papers {
+  margin-bottom: 64px;
+}
+
+.future {
+  margin-bottom: 64px;
+}
+
+a:link,
+:visited {
+  text-decoration: none;
+  color: #f3d9fa;
+  background-color: #9c36b5;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 12px;
+}
+
+a:hover,
+:active {
+  background-color: #862e9c;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 28px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+img {
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+}
+
+.btn {
+  text-transform: uppercase;
+  color: #f3d9fa;
+  background-color: #9c36b5;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 12px;
+  letter-spacing: 2 px;
+  border: 0;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #862e9c;
+  cursor: pointer;
+}
+
+/* SECONDARY COMPONENTS */
+
+.eligibility li {
+  list-style: none;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.eligibility li:last-child {
+  margin-bottom: 0;
+}
+
+.papers li {
+  margin-bottom: 12px;
+  padding-left: 12px;
+  margin-left: 24px;
+  font-size: 18px;
+}
+
+.design-button {
+  margin-bottom: 64px;
+}
+
+.future-head {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.future-text {
+  font-size: 16px;
+}
+
+.future-icons {
+  stroke: #f3d9fa;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 12px;
+}
