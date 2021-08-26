@@ -7,9 +7,9 @@ FONT SIZE SYSTEM (px)
 */
 
 /* 
-MAIN COLOR: #1971c2
-GREY COLOR: #1864ab
-ACCENT: #4dabf7
+MAIN COLOR: #099268
+GREY COLOR: #087f5b
+ACCENT: #20c997, #e6fcf5
 */
 * {
   margin: 0;
@@ -28,10 +28,10 @@ body {
 }
 
 .container {
-  background-color: #4dabf7;
+  background-color: #e6fcf5;
   padding: 40px;
   border-radius: 30px;
-  box-shadow: 0 20px 30px 0 rgb(0, 0, 0, 0.1);
+  box-shadow: 0 20px 30px 0 rgb(0, 0, 0, 0.07);
 }
 
 .form {
@@ -43,11 +43,11 @@ body {
 }
 
 h2 {
-  background-color: #1971c2;
+  background-color: #099268;
   display: inline-block;
   padding: 20px;
   border-radius: 20px;
-  color: #e7f5ff;
+  color: #e6fcf5;
   margin-bottom: 52px;
   word-spacing: 2px;
   letter-spacing: 0.5px;
@@ -56,7 +56,7 @@ h2 {
 .submit-btn {
   font-size: 18px;
   text-transform: uppercase;
-  background-color: #1971c2;
+  background-color: #099268;
   border: none;
   color: #fff;
   padding: 10px 20px;
@@ -66,14 +66,14 @@ h2 {
 }
 
 .submit-btn:hover {
-  background-color: #1864ab;
+  background-color: #087f5b;
   cursor: pointer;
 }
 
 label {
   display: inline-block;
   margin-bottom: 8px;
-  color: #e7f5ff;
+  color: #20c997;
   letter-spacing: 0.5px;
   font-size: 16px;
 }
