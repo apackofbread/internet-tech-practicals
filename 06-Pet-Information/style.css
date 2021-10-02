@@ -6,20 +6,21 @@
 
 body {
   font-family: sans-serif;
-  background-color: #f7f7f7;
+  background-color: #ffdeeb;
 }
 
 .container {
-  width: 750px;
-  margin: 10px auto;
+  width: 1200px;
+  margin: 56px auto;
 }
 
 h1 {
-  font-size: 22px;
-  color: #f79256;
+  font-size: 24px;
+  color: #333;
   font-weight: bold;
   font-family: sans-serif;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .form {
@@ -27,41 +28,52 @@ h1 {
   grid-template-columns: 1fr;
   row-gap: 20px;
   justify-items: center;
-  border-top: 5px solid #7dcfb6;
-  border-bottom: 5px solid #7dcfb6;
-  background-color: #fbd1a2;
+  background: linear-gradient(to bottom, #d6336c, #e64980);
   width: 500px;
   margin: 0 auto;
   padding: 20px;
+  border-radius: 4px;
 }
 
-.el {
+.form input::placeholder,
+.form textarea::placeholder {
+  font-family: sans-serif;
+  color: #333;
+}
+
+.form *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+.el,
+.hobbies {
+  border-radius: 4px;
+  padding: 10px;
+  border: none;
+  width: 100%;
   font-size: 18px;
-  width: 300px;
-  height: 42px;
-  padding: 5px;
+  color: #333;
 }
 
 .hobbies {
-  font-size: 18px;
-  width: 400px;
-  height: 100px;
-  padding: 5px;
+  height: 150px;
 }
 
 .submit-button {
   letter-spacing: 2px;
   text-transform: uppercase;
-  background-color: #00b2ca;
+  background-color: #801f41;
+  width: 100%;
   border: none;
   padding: 10px;
   color: #fff;
-  font-weight: bold;
-  border: 3px solid #00b2ca;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all 0.4s;
 }
 
 .submit-button:hover {
-  color: #1d4e89;
-  background-color: #fbd1a2;
+  background-color: #6b1a36;
   cursor: pointer;
 }
