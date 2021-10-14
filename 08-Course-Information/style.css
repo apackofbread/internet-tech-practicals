@@ -8,79 +8,81 @@ ACCENTS: #f8f0fc #f3d9fa */
   box-sizing: border-box;
 }
 
-body {
-  border-bottom: 8px solid #9c36b5;
+/* body {
   background-color: #f8f0fc;
+  font-family: sans-serif;
+  color: #000;
+  font-size: 16px;
 }
 
-/* MAIN COMPONENTS */
 
 .container {
   width: 70%;
   margin: 0 auto;
-  font-family: sans-serif;
   margin-top: 64px;
-  color: #343a40;
   line-height: 1.5;
 }
 
 .header {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 20px;
-  align-items: center;
-  margin-bottom: 64px;
+  background-color: #862e9c;
+  margin-bottom: 96px;
+}
+
+.header h1 {
+  text-align: center;
+  padding: 24px;
+  font-size: 42px;
+  color: #fff;
 }
 
 .grid-3-cols {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 40px;
-  row-gap: 20px;
-  background-color: #9c36b5;
-  border-radius: 20px;
-  padding: 40px;
-  color: #f3d9fa;
+  row-gap: 48px;
 }
 
 .fee {
-  margin-bottom: 64px;
+  margin-bottom: 96px;
 }
 
 .eligibility {
-  margin-bottom: 64px;
+  margin-bottom: 96px;
 }
 
 .course-structure {
-  margin-bottom: 64px;
+  margin-bottom: 96px;
 }
 
 .papers {
-  margin-bottom: 64px;
+  margin-bottom: 96px;
 }
 
 .future {
-  margin-bottom: 64px;
+  margin-bottom: 24px;
 }
 
 a:link,
-:visited {
+a:visited,
+.btn {
   text-decoration: none;
-  color: #f3d9fa;
+  color: #fff;
   background-color: #9c36b5;
   padding: 10px;
   display: inline-block;
   border-radius: 10px;
   margin-top: 12px;
+  transition: all 0.4s;
+  font-size: 16px;
+
+
+  cursor: pointer;
 }
 
 a:hover,
-:active {
+a:active,
+.btn:hover {
   background-color: #862e9c;
-}
-
-h1 {
-  font-size: 42px;
 }
 
 h2 {
@@ -88,41 +90,20 @@ h2 {
   margin-bottom: 28px;
 }
 
-p {
-  font-size: 18px;
+.eligibility p {
   margin-bottom: 18px;
-}
-
-img {
-  border-radius: 20px;
-  width: 400px;
-  height: 400px;
 }
 
 .btn {
   text-transform: uppercase;
-  color: #f3d9fa;
-  background-color: #9c36b5;
-  padding: 10px;
-  display: inline-block;
-  border-radius: 10px;
-  margin-top: 12px;
-  letter-spacing: 2 px;
+  letter-spacing: 0.5px;
   border: 0;
-  font-size: 18px;
+  font-weight: 600;
 }
-
-.btn:hover {
-  background-color: #862e9c;
-  cursor: pointer;
-}
-
-/* SECONDARY COMPONENTS */
 
 .eligibility li {
   list-style: none;
   margin-bottom: 16px;
-  font-size: 18px;
 }
 
 .eligibility li:last-child {
@@ -133,25 +114,59 @@ img {
   margin-bottom: 12px;
   padding-left: 12px;
   margin-left: 24px;
-  font-size: 18px;
 }
 
 .design-button {
-  margin-bottom: 64px;
+  margin-bottom: 96px;
 }
 
 .future-head {
-  font-size: 24px;
+  font-size: 18px;
   margin-bottom: 8px;
 }
 
-.future-text {
-  font-size: 16px;
-}
-
 .future-icons {
-  stroke: #f3d9fa;
+  stroke: #9c36b5;
   width: 24px;
   height: 24px;
   margin-bottom: 12px;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+table td,
+table th {
+  padding: 16px 32px;
+}
+
+table table th {
+  width: 40%;
+}
+
+thead tr:nth-child(2) {
+  text-align: center;
+}
+
+tbody tr td:not(:first-child) {
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3d9fa;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eeeeeefb;
+}
+
+thead tr {
+  background-color: #9c36b5;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  border-bottom: 8px solid #9c36b5;
+} */
